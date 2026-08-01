@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abd Al-Salam — Portfolio</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --card: #161b22;
+    --text: #c9d1d9;
+    --accent: #58a6ff;
+    --muted: #8b949e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    line-height: 1.7;
+    padding: 0 20px;
+  }
+  header {
+    max-width: 700px;
+    margin: 60px auto 40px;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 2.2rem;
+    color: var(--accent);
+  }
+  header h1 span {
+    color: var(--muted);
+    font-size: 1rem;
+    display: block;
+    margin-top: 8px;
+  }
+  header p {
+    margin-top: 15px;
+    color: var(--muted);
+  }
+  main {
+    max-width: 700px;
+    margin: 0 auto 60px;
+  }
+  section {
+    background: var(--card);
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  section h2 {
+    color: var(--accent);
+    font-size: 1.15rem;
+    margin-bottom: 12px;
+  }
+  ul { list-style: none; }
+  ul li::before {
+    content: "◆ ";
+    color: var(--accent);
+    font-size: 0.8rem;
+  }
+  ul li { margin-bottom: 8px; }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  a:hover { text-decoration: underline; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+    padding-bottom: 30px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Abd Al-Salam
+    <span>Computer Science Student — Backend Enthusiast</span>
+  </h1>
+  <p>Computer science student focused on building backend systems and APIs, always looking for the next tool or framework to learn.</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>About</h2>
+    <ul>
+      <li>Third-year Computer Science student.</li>
+      <li>Interested in backend development and databases.</li>
+      <li>Comfortable with Python and Java, currently learning Go.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>TaskFlow</strong> — A web app for managing tasks in small teams.</li>
+      <li><strong>Library API</strong> — A REST API for a library management system, built with Node.js.</li>
+      <li><strong>LinkSweep</strong> — A tool that scans websites and reports broken links.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>Python, Java, JavaScript, SQL</li>
+      <li>Git & GitHub</li>
+      <li>Data Structures & Algorithms</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <ul>
+      <li>Email: your-email@example.com</li>
+      <li>GitHub: <a href="#" target="_blank">github.com/yourusername</a></li>
+      <li>LinkedIn: <a href="#" target="_blank">linkedin.com/in/yourusername</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  Built with coffee and way too much debugging — 2026
+</footer>
+
+</body>
+</html>
